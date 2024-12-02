@@ -14,7 +14,6 @@ fun MovieNavigation() {
     val navController = rememberNavController()
 
     NavHost(navController = navController, startDestination = MovieScreen.HomeScreen.route) {
-
         composable(route = MovieScreen.HomeScreen.route) {
             HomeScreen(navController = navController)
         }
